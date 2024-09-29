@@ -1,0 +1,32 @@
+.accordion {
+  --bs-accordion-border-radius: 20px !important;
+}
+.accordion-item {
+  overflow: hidden;
+}
+.accordion-item:hover .accordion-button {
+  background-color: var(--gray);
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--white) !important;
+}
+
+.accordion-button:focus {
+  /* border-color: none !important; */
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.cheack-label {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

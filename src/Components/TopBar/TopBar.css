@@ -1,0 +1,59 @@
+.top-bar {
+  background-color: var(--white);
+  padding: 0.5rem 0;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.top-bar-scroll {
+  background-color: var(--white);
+}
+
+.header-logo-box {
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.header-logo-box-scroll {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.menu-icon-box {
+  padding: 1rem 0;
+}
+.menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.menu-expand {
+  background-color: var(--white);
+  min-height: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.show-menu-expand {
+  min-height: 18rem;
+  visibility: visible;
+  opacity: 1;
+}

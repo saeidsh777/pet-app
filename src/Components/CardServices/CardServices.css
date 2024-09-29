@@ -1,0 +1,19 @@
+.card-services {
+  padding: 3rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: var(--gray);
+}
+
+.card-services-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-services h3 {
+  white-space: nowrap !important;
+}

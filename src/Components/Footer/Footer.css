@@ -1,0 +1,53 @@
+.social-media-box {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--orange);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--orange);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.social-media-box:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+.social-media {
+  font-size: 1.4rem;
+}
+
+.input-c {
+  border: 1px solid var(--orange) !important;
+  outline: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: var(--white);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  padding: 0.5rem 1.5rem;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.image{
+  width: 10rem;
+  height: 8rem;
+}

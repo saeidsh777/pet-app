@@ -1,0 +1,21 @@
+.img-contact-box {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  width: 25rem;
+  height: 25rem;
+  margin: 0 auto;
+}
+.img-contact-box img {
+  object-fit: cover !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .img-contact-box {
+    width: 15rem;
+    height: 15rem;
+  }
+}

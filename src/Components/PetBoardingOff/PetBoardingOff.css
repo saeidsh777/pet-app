@@ -1,0 +1,36 @@
+.pet-off {
+  background-color: var(--yellow);
+  border-radius: 0 30px 30px 30px;
+  -webkit-border-radius: 0 30px 30px 30px;
+  -moz-border-radius: 0 30px 30px 30px;
+  -ms-border-radius: 0 30px 30px 30px;
+  -o-border-radius: 0 30px 30px 30px;
+}
+
+.pet-off-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pet-off-img-container {
+  background-color: var(--yellow);
+  position: absolute;
+  top: -6rem;
+  left: 50%;
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 5px solid #fdb519;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  box-shadow: 0 5px 10px rgba(51, 51, 51, 0.485);
+}

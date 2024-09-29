@@ -1,0 +1,38 @@
+.pet-care-card {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: var(--gray);
+}
+
+.care-price {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.care-price-box span {
+  font-family: var(--f-nunito-xb);
+}
+
+.pet-care-card.orng-b {
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+
+@media only screen and (max-width: 992px) {
+  .pet-care {
+    overflow-x: hidden;
+  }
+  .pet-care-card.orng-b {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}

@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1200px) {
+  .ps-c {
+    padding: 0 2rem 0 4rem;
+  }
+
+  .pe-c {
+    padding: 0 4rem 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .ps-c {
+    padding: 0;
+  }
+
+  .pe-c {
+    padding: 0;
+  }
+
+  .pet-care-card.orng-b {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+
+  .img-contact-box {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .our-office {
+    position: static;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .accordion-boarding {
+    padding: 0 2rem 0 0;
+  }
+  .contact-us-form {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pet-off-img-container {
+    overflow: visible;
+    border-radius: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+    border: none;
+  }
+  .pet-off-img {
+    position: absolute;
+    width: 100%;
+    bottom: -3rem;
+    left: -1rem;
+  }
+}

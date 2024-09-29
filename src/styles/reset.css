@@ -1,0 +1,41 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--f-nunito-r);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-family: var(--f-nunito-xb);
+  font-size: var(--fs-5r);
+  word-wrap: break-word;
+}
+
+h2 {
+  font-family: var(--f-nunito-b);
+  font-size: var(--fs-3-6r);
+}
+
+h3 {
+  font-family: var(--f-nunito-b);
+  font-size: var(--fs-1-6r);
+}
+
+h5 {
+  font-family: var(--f-nunito-b);
+}
